@@ -27,7 +27,7 @@ Feel free to reach out, contribute, or connect. Let's grow together! 🚀
 &nbsp;
 [<img alt="linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/schaeckm/)
 
-### My main Tech-Stack
+### 🧑‍💻 My main Tech-Stack
 
 <img alt="kotlin" src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white" />
 &nbsp;
