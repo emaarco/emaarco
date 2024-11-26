@@ -7,11 +7,17 @@ driven to discover smart and sustainable solutions. 🚀
 
 ### 🌱 What Drives Me
 
-I believe in building systems that are effective and sustainable. I'm fascinated by clean code, clean architecture, and process automation. My goal is to create solutions that are simple, understandable, and valuable in the long term. I love diving into the details, continuously learning, and growing my skills as I work toward my ideals.
+I believe in building systems that are not just effective - but sustainable. 
+I'm fascinated by clean code, clean architecture, and process automation. 
+My goal is to create solutions that are simple, understandable, and valuable in the long term. 
+I love diving into the details, continuously learning, and growing my skills as I work toward my ideals.
 
 ### 🌟 My Vision
 
-Here on GitHub, I want to share my journey: tackling challenges, creating solutions, reflecting on them, and learning along the way. I also publish posts on Medium that explore these topics in more depth, linking the relevant code here. By doing this, I hope to learn, share knowledge, and inspire others. My goal is to motivate, inform, enable, and encourage reflection for anyone interested in building sustainable, smart, and clean solutions.
+Here on GitHub, I want to share my journey: tackling challenges, creating solutions, reflecting on them, and learning along the way. 
+I also publish posts on [Medium](https://medium.com/@emaarco) that explore these topics in more depth, linking the relevant code here. 
+By doing this, I hope to learn, share knowledge, and inspire others. 
+My goal is to motivate, inform, enable, and encourage reflection for anyone interested in building sustainable, smart, and clean solutions.
 
 Feel free to reach out, contribute, or connect. Let's grow together! 🚀
 
