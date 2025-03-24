@@ -8,7 +8,7 @@ driven to discover smart and sustainable solutions. 🚀
 ### 🌱 What Drives Me
 
 I believe in building systems that are not just effective - but sustainable. 
-I'm fascinated by clean code, clean architecture, and process automation. 
+I'm fascinated by clean code, clean architecture, and optimizing processes.
 My goal is to create solutions that are simple, understandable, and valuable in the long term. 
 I love diving into the details, continuously learning, and growing my skills as I work toward my ideals.
 
