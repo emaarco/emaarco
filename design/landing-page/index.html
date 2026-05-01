@@ -25,6 +25,9 @@
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html,body{width:100%;overflow-x:hidden}
+  html{scroll-behavior:smooth}
+  a.pillar,a.ai-block{text-decoration:none;color:inherit;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}
+  a.pillar:hover,a.ai-block:hover{background:rgba(255,255,255,.06);border-color:var(--miragon-green);transform:translateY(-2px)}
   body{font-family:'Inter',sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;color:#fff;background:var(--black)}
   a{color:inherit;text-decoration:none}
   .slide{position:relative;min-height:100vh;width:100%;padding:96px 80px;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
@@ -67,15 +70,18 @@
 
   /* SLIDE 1 */
   .s1{background:var(--black);color:#fff}
-  .s1-grid{display:grid;grid-template-columns:280px 1fr;gap:64px;align-items:center;margin-top:80px;margin-bottom:8px}
+  .s1-grid{display:grid;grid-template-columns:280px 1fr;gap:64px;align-items:center;margin-bottom:8px}
   @media (max-width:900px){.s1-grid{grid-template-columns:1fr;gap:36px}}
   .s1 h1.display{font-size:clamp(44px,7.2vw,88px);margin-bottom:28px}
   .avatar-hero{width:260px;height:260px;border:2px solid rgba(255,255,255,.85);box-shadow:0 0 0 8px rgba(255,255,255,.04),0 30px 60px -20px rgba(29,58,255,.45),0 0 80px rgba(0,217,126,.18)}
   @media (max-width:900px){.avatar-hero{width:220px;height:220px}}
-  .role-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--miragon-green);margin-right:8px;vertical-align:middle;box-shadow:0 0 8px var(--miragon-green)}
+  .role-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--miragon-green);margin-right:8px;vertical-align:middle;box-shadow:0 0 8px var(--miragon-green);animation:pulse-dot 2.4s ease-in-out infinite}
+  @keyframes pulse-dot{0%,100%{box-shadow:0 0 6px var(--miragon-green);opacity:.85}50%{box-shadow:0 0 14px var(--miragon-green),0 0 24px rgba(0,217,126,.6);opacity:1}}
 
   /* SLIDE 2 — Pillars */
-  .s2{background:var(--black-2);color:#fff;background-image:linear-gradient(180deg,rgba(0,217,126,.16) 0%,rgba(5,5,16,1) 40%)}
+  .s2{background:var(--black);color:#fff}
+  .s2 .aurora::before{top:-200px;right:-200px;left:auto;background:var(--miragon-blue-bright)}
+  .s2 .aurora::after{bottom:-200px;left:-200px;right:auto;background:var(--miragon-green)}
   .s2 h2.display{margin-bottom:18px}
   .s2 .sub-italic{margin-bottom:48px}
   .s3 .sub-italic, .s4w .sub-italic{max-width:80%}
@@ -143,7 +149,7 @@
 
   /* SLIDE 6 — contact */
   .s6{background:var(--black-2);color:#fff;background-image:radial-gradient(ellipse at 50% 100%,rgba(0,217,126,.18) 0%,rgba(29,58,255,.12) 35%,rgba(5,5,16,1) 75%)}
-  .s6 .inner{align-items:center;text-align:center;justify-content:center}
+  .s6 .inner{align-items:center;text-align:center}
   .avatar-wrap{position:relative;width:120px;height:120px;margin:0 auto 28px}
   .avatar-wrap::before{content:'';position:absolute;inset:-60px;background:radial-gradient(circle at 30% 30%,rgba(29,58,255,.5),transparent 60%),radial-gradient(circle at 70% 70%,rgba(0,217,126,.45),transparent 60%);filter:blur(30px);z-index:0;border-radius:50%}
   .avatar-contact{position:relative;z-index:1;width:120px;height:120px;border:1px solid rgba(255,255,255,.7);box-shadow:0 0 0 6px rgba(255,255,255,.05),0 20px 40px -10px rgba(29,58,255,.45)}
@@ -170,6 +176,18 @@
   .miragon-line .ldot{width:6px;height:6px;border-radius:50%;background:var(--miragon-green);box-shadow:0 0 8px var(--miragon-green)}
   .miragon-line a{opacity:.65;font-size:12px;letter-spacing:.14em}
   .footer{margin-top:auto;padding-top:32px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;opacity:.45}
+
+  /* Pillar deep-dive slides (03–06) */
+  .s3a{background:var(--black-2);color:#fff;background-image:linear-gradient(180deg,rgba(11,29,107,.55) 0%,rgba(5,5,16,1) 50%)}
+  .s3b{background:var(--black-2);color:#fff;background-image:linear-gradient(180deg,rgba(0,217,126,.20) 0%,rgba(5,5,16,1) 50%)}
+  .s3c{background:var(--black-2);color:#fff;background-image:linear-gradient(180deg,rgba(46,16,101,.55) 0%,rgba(5,5,16,1) 50%)}
+  .s3d{background:var(--black);color:#fff;background-image:radial-gradient(ellipse at 50% 0%,rgba(29,58,255,.18) 0%,rgba(0,217,126,.10) 30%,rgba(5,5,16,1) 65%)}
+  .pillar-detail-list{display:flex;flex-direction:column;gap:0;margin-top:48px;border-top:1px solid rgba(255,255,255,.12)}
+  .pdl-row{display:grid;grid-template-columns:24px minmax(180px,260px) 1fr;gap:24px;align-items:baseline;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+  @media (max-width:780px){.pdl-row{grid-template-columns:24px 1fr;gap:12px}.pdl-row .pdl-desc{grid-column:2}}
+  .pdl-dot{width:8px;height:8px;border-radius:50%;background:var(--miragon-green);box-shadow:0 0 6px var(--miragon-green);margin-top:8px}
+  .pdl-label{font-family:'Inter Tight','Inter',sans-serif;font-weight:600;font-size:18px;color:#fff}
+  .pdl-desc{font-family:'Inter',sans-serif;font-weight:400;font-size:15px;line-height:1.55;opacity:.85}
 </style>
 </head>
 <body>
@@ -178,19 +196,20 @@
 <!-- SLIDE 1 — INTRO -->
 <section class="slide s1">
   <div class="aurora"></div>
-  <span class="num">01 / 05</span>
+  <span class="num">01 / 09</span>
   <div class="inner">
+    <div class="eyebrow">Marco Schäck · 2026</div>
     <div class="s1-grid">
       <img class="avatar avatar-hero" src="https://avatars.githubusercontent.com/u/25871895?v=4" alt="Marco Schäck" loading="eager" />
       <div>
-        <h1 class="display"><span style="font-size:.78em;display:inline-block;vertical-align:baseline;margin-right:.12em">👋</span> Hello,<br><span class="grad-text">I'm Marco.</span></h1>
-        <p class="sub-italic">I help teams design and build software that lasts. Architecture, BPMN, and clean engineering — done with care, used on purpose.</p>
+        <h1 class="display">Software,<br><span class="grad-text">made to last.</span></h1>
+        <p class="sub-italic">Architecture, BPMN, and clean engineering — designed to last, built to adapt.</p>
       </div>
     </div>
     <div class="meta-row">
       <div><b>ROLE</b><span class="role-dot"></span>Senior Consultant @ Miragon</div>
       <div><b>FOCUS</b>Architecture · BPMN · Engineering Enablement</div>
-      <div><b>BASED</b><a href="https://www.google.com/maps/place/Augsburg" target="_blank" rel="noopener">Germany · Augsburg ↗</a></div>
+      <div><b>BASED</b>Germany · Remote-friendly</div>
     </div>
     <div class="scroll-cue">↓ SCROLL</div>
   </div>
@@ -198,58 +217,170 @@
 
 <!-- SLIDE 2 — PILLARS -->
 <section class="slide s2">
-  <div class="aurora single single-green"></div>
-  <span class="num">02 / 05</span>
+  <div class="aurora subtle"></div>
+  <span class="num">02 / 09</span>
   <div class="inner">
-    <div class="eyebrow">The work</div>
-    <h2 class="display">Here's how <span class="grad-text">I think about it.</span></h2>
-    <p class="sub-italic">Three areas where I focus, and one tool — AI — that's reshaping all of them. This is where I want to make the difference.</p>
+    <div class="eyebrow">What I really do</div>
+    <h2 class="display"><span class="grad-text">Three pillars.</span> One frame.</h2>
+    <p class="sub-italic">Where I come from, where I'm working today, and where I'm growing — with AI threaded through it all.</p>
     <div class="ai-frame">
       <div class="pillars">
-        <div class="pillar">
-          <div class="pillar-head">
-            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><rect x="6.5" y="6.5" width="11" height="11" rx="1"/><rect x="10" y="10" width="4" height="4" rx="0.5"/></svg>
-            <span class="pillar-name">Architecture</span>
-          </div>
-          <p>Designing systems that absorb change. Choosing what to keep stable, what to keep flexible, and what to leave out entirely. Decisions that are still good in three years.</p>
-        </div>
-        <div class="pillar">
-          <div class="pillar-head">
-            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10"/><path d="M6 8l5.5 8"/><path d="M18 8l-5.5 8"/></svg>
-            <span class="pillar-name">BPMN</span>
-          </div>
-          <p>Workshops, trainings, and hands-on enablement. Helping teams adopt BPMN seriously — not as wallpaper, but as a working language between business and engineering.</p>
-        </div>
-        <div class="pillar">
+        <a class="pillar" href="#engineering">
           <div class="pillar-head">
             <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6l-5 6 5 6"/><path d="M16 6l5 6-5 6"/><path d="M14 4l-4 16"/></svg>
             <span class="pillar-name">Engineering</span>
           </div>
-          <p>Pairing on the tricky parts. Reviewing code that has to last. Mentoring engineers so the team is stronger when I leave than when I arrived.</p>
-        </div>
+          <p>Where I come from. I sit with engineers, dig into the tricky parts together, and review both the code and the thinking behind it — leaving teams stronger than I found them.</p>
+        </a>
+        <a class="pillar" href="#bpmn">
+          <div class="pillar-head">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10"/><path d="M6 8l5.5 8"/><path d="M18 8l-5.5 8"/></svg>
+            <span class="pillar-name">BPMN</span>
+          </div>
+          <p>Where I've spent years. Workshops, trainings, modelling conventions, and tools that close the gap between diagram and runtime — so BPMN becomes a real working language.</p>
+        </a>
+        <a class="pillar" href="#architecture">
+          <div class="pillar-head">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><rect x="6.5" y="6.5" width="11" height="11" rx="1"/><rect x="10" y="10" width="4" height="4" rx="0.5"/></svg>
+            <span class="pillar-name">Architecture</span>
+          </div>
+          <p>Where I'm growing. Domain-driven design, hexagonal architecture, residuality theory — looking for ways to design systems that absorb change instead of fighting it.</p>
+        </a>
       </div>
-      <div class="ai-block">
+      <a class="ai-block" href="#ai" style="text-decoration:none;color:inherit">
         <div class="pillar-head" style="min-width:200px">
           <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
           <span class="pillar-name">AI</span>
         </div>
         <div class="body">
-          <p style="font-size:14.5px;line-height:1.55;opacity:.85;margin:0 0 8px">The tool I work with daily, and where I want to push hardest. AI lets teams produce code at unprecedented volume — which makes review the new bottleneck and quality the new risk.</p>
-          <p style="font-size:14.5px;line-height:1.55;opacity:.85;margin:0">I'm focused on the interfaces: guardrails, review patterns, and conventions that keep quality high without slowing teams down. AI used on purpose, not on autopilot.</p>
+          <p style="font-size:14.5px;line-height:1.55;opacity:.85;margin:0 0 8px">AI threads through everything I do. The interesting question isn't whether to use it — it's how to use it well, across all three pillars.</p>
+          <p style="font-size:14.5px;line-height:1.55;opacity:.85;margin:0">I want to stand for the smart, deliberate use of AI: guardrails, trainings, review patterns — the things that let teams move fast without trading away quality.</p>
         </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 3 — ENGINEERING -->
+<section id="engineering" class="slide s3c">
+  <div class="aurora single single-purple"></div>
+  <span class="num">03 / 09</span>
+  <div class="inner">
+    <div class="eyebrow">Engineering</div>
+    <h2 class="display">Lift <span class="grad-text">the team.</span></h2>
+    <p class="sub-italic">Engineering is where I come from. I sit with engineers, dig into the tricky parts together, and spend a lot of my time reviewing — both the code and the thinking behind it. The most rewarding part of every engagement: leaving a team that can keep going strong without me, with patterns and habits that outlast whichever sprint we happened to be in.</p>
+    <div class="pillar-detail-list">
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Pair programming</div>
+        <div class="pdl-desc">Where I learn as much as I teach — usually more.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Code reviews</div>
+        <div class="pdl-desc">My favourite place to push for clarity and intent.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Mentoring</div>
+        <div class="pdl-desc">The slowest, most rewarding investment I get to make.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SLIDE 3 — PROJECTS -->
+<!-- SLIDE 4 — BPMN -->
+<section id="bpmn" class="slide s3b">
+  <div class="aurora single single-green"></div>
+  <span class="num">04 / 09</span>
+  <div class="inner">
+    <div class="eyebrow">BPMN</div>
+    <h2 class="display">A working <span class="grad-text">language.</span></h2>
+    <p class="sub-italic">BPMN is where I've spent years — modelling, training, and shipping process-driven systems. The part that keeps me hooked is the moment a diagram and the code finally line up and stay that way. I run workshops, build conventions teams can lean on, and write tools that close the gap between modeler and runtime.</p>
+    <div class="pillar-detail-list">
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Workshops &amp; trainings</div>
+        <div class="pdl-desc">Where I get to see teams click — Camunda, Zeebe, modelling fundamentals.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Modelling conventions</div>
+        <div class="pdl-desc">Patterns I refine project after project — readable, testable, runnable.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Diagram ↔ runtime</div>
+        <div class="pdl-desc">The drift problem I'm trying to solve with bpmn-to-code.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 5 — ARCHITECTURE -->
+<section id="architecture" class="slide s3a">
+  <div class="aurora single single-blue"></div>
+  <span class="num">05 / 09</span>
+  <div class="inner">
+    <div class="eyebrow">Architecture</div>
+    <h2 class="display">Decisions that <span class="grad-text">age well.</span></h2>
+    <p class="sub-italic">Architecture is where I'm growing into. The room where the decisions happen — what to keep flexible, what to commit to, what to simply leave out — is the room I want to be in. I dig into Domain-Driven Design, hexagonal architecture, and lately residuality theory, looking for ways to design systems that absorb change instead of fighting it.</p>
+    <div class="pillar-detail-list">
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Domain-driven design</div>
+        <div class="pdl-desc">Where I obsess about clean cuts between business and tech.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Hexagonal architecture</div>
+        <div class="pdl-desc">Thin adapters, fat domain — the layout I keep coming back to.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Residuality thinking</div>
+        <div class="pdl-desc">A newer obsession — designing for survival under stress.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 6 — AI -->
+<section id="ai" class="slide s3d">
+  <div class="aurora subtle"></div>
+  <span class="num">06 / 09</span>
+  <div class="inner">
+    <div class="eyebrow">AI</div>
+    <h2 class="display">Multiplier, <span class="grad-text">on purpose.</span></h2>
+    <p class="sub-italic">AI is where I'm spending most of my curious hours right now. Not the hype — the practical question of how to use it well without trading away maintainability. I build Claude Code plugins, experiment with guardrails, and figure out review patterns that scale with the volume AI now lets us produce.</p>
+    <div class="pillar-detail-list">
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Guardrails</div>
+        <div class="pdl-desc">The interfaces I'm experimenting with most — see hogwarts.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Review patterns</div>
+        <div class="pdl-desc">Where I think humans still have to step in — and how to make it cheap.</div>
+      </div>
+      <div class="pdl-row">
+        <span class="pdl-dot"></span>
+        <div class="pdl-label">Quality at volume</div>
+        <div class="pdl-desc">The new bottleneck I'm trying to crack — testing and conventions.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 7 — PROJECTS -->
 <section class="slide s3">
   <div class="aurora single single-purple"></div>
-  <span class="num">03 / 05</span>
+  <span class="num">07 / 09</span>
   <div class="inner">
-    <div class="eyebrow">Open source</div>
-    <h2 class="display">I share <span class="grad-text">what I build.</span></h2>
-    <p class="sub-italic">Honestly, I just like contributing. Sharing what works, getting honest feedback, solving the same problems together — we move further together than alone. Here are a few of my favourites.</p>
+    <div class="eyebrow">Why open source</div>
+    <h2 class="display">Built in <span class="grad-text">the open.</span></h2>
+    <p class="sub-italic">I share what I build — patterns, tools, and the occasional dead end — straight on GitHub, so the next person doesn't waste a week on a problem I already solved. Here are a few of my favourites. Clone, fork, send notes.</p>
     <div class="grid-projects">
       <article class="card">
         <h3>bpmn-to-code</h3>
@@ -294,11 +425,11 @@
 <!-- SLIDE 4 — WRITING -->
 <section class="slide s4w">
   <div class="aurora single single-blue"></div>
-  <span class="num">04 / 05</span>
+  <span class="num">08 / 09</span>
   <div class="inner">
-    <div class="eyebrow">Writing</div>
-    <h2 class="display">I write it <span class="grad-text">down.</span></h2>
-    <p class="sub-italic">When something teaches me a real lesson, I put it in writing. Patterns, dead ends, the occasional strong opinion. Have a read, push back, send notes.</p>
+    <div class="eyebrow">Writing · 14 articles on Medium</div>
+    <h2 class="display">From the <span class="grad-text">notebook.</span></h2>
+    <p class="sub-italic">I share what I learn — patterns, dead ends, and the occasional strong opinion — over on Medium. Here are the latest pieces. Have a read, push back, send notes.</p>
     <div class="grid-articles">
       <div class="article">
         <div class="date">APR 2026</div>
@@ -343,21 +474,22 @@
 <!-- SLIDE 6 — CONTACT -->
 <section class="slide s6">
   <div class="aurora subtle"></div>
-  <span class="num">05 / 05</span>
+  <span class="num">09 / 09</span>
   <div class="inner">
     <div class="avatar-wrap">
       <img class="avatar avatar-contact" src="https://avatars.githubusercontent.com/u/25871895?v=4" alt="Marco Schäck" loading="lazy" />
     </div>
     <div class="eyebrow">Get in touch</div>
-    <h2 class="display"><span class="grad-text">Say hi.</span></h2>
-    <p class="sub-plain">I'm always up for a good conversation. Questions about a post, BPMN war stories, or just hello. Got a process automation challenge that needs a serious team? Happy to route it through Miragon.</p>
+    <h2 class="display"><span class="grad-text">Say hello.</span></h2>
+    <p class="sub-plain">Open inbox, always — questions about a post, BPMN war stories, or just a hello. Got a process automation challenge that needs a serious team? Happy to route it through Miragon.</p>
     <div class="btn-row">
-      <a class="btn gh" href="https://github.com/emaarco"><span class="ldot"></span><span class="lbl">GitHub</span><span class="handle">@emaarco</span></a>
-      <a class="btn md" href="https://medium.com/@emaarco"><span class="ldot"></span><span class="lbl">Medium</span><span class="handle">@emaarco</span></a>
-      <a class="btn li" href="https://linkedin.com/in/schaeckm"><span class="ldot"></span><span class="lbl">LinkedIn</span><span class="handle">/in/schaeckm</span></a>
-      <a class="btn em" href="mailto:marco.schaeck@miragon.io"><span class="ldot"></span><span class="lbl">Email</span><span class="handle">@miragon.io</span></a>
+      <a class="btn gh" href="https://github.com/emaarco" target="_blank" rel="noopener"><span class="ldot"></span><span class="lbl">GitHub</span><span class="handle">@emaarco</span></a>
+      <a class="btn md" href="https://medium.com/@emaarco" target="_blank" rel="noopener"><span class="ldot"></span><span class="lbl">Medium</span><span class="handle">@emaarco</span></a>
+      <a class="btn li" href="https://linkedin.com/in/schaeckm" target="_blank" rel="noopener"><span class="ldot"></span><span class="lbl">LinkedIn</span><span class="handle">/in/schaeckm</span></a>
+      <a class="btn em" href="mailto:marco.schaeck@miragon.io" target="_blank" rel="noopener"><span class="ldot"></span><span class="lbl">Email</span><span class="handle">@miragon.io</span></a>
     </div>
     <a class="lead-line" href="https://miragon.io" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:inline-flex;align-items:center;gap:10px"><span class="ldot"></span><span>For projects — open to interesting work via</span><img src="https://miragon.io/images/favicon.png" alt="Miragon" style="height:18px;width:18px;border-radius:4px;vertical-align:middle"/><span style="font-weight:600">Miragon</span></a>
+    <div class="footer">marco-schaeck.dev · 2026</div>
   </div>
 </section>
 
