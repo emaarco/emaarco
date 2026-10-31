@@ -52,7 +52,7 @@ Next to this metadata in the frontmatter the markdown also contains a body. It h
 
 All in all, such a skill could, describe exactly how Zeebe job workers should be implemented. In a simplified example this could look somehow like this:
 
-```markdown
+````markdown
 ---
 name: create-worker
 argument-hint: "[<path-to-ProcessApi-or-BPMN-file>] [task-type-constant]"
@@ -69,7 +69,7 @@ description: Create a new @JobWorker class for a BPMN service task. Accepts a
 
 ## Pattern
 
-```
+```kotlin
 package ...
 
 import io.camunda.client.annotation.JobWorker
@@ -99,7 +99,7 @@ class AbortRegistrationWorker(
 5. Otherwise create a new worker using the camunda-spring-boot-starter patterns and key rules listed above
 6. If you are missing any information (which annotations to use or use cases to inject), ask the user for feedback
 7. Report the result and remind the developer to run `test-worker`
-```
+````
 
 Beyond that, there are two optional folders — not required for every skill.
 
