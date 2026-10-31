@@ -6,7 +6,7 @@ As a developer, I’ve always been driven by the desire to create clean and inte
 
 One recurring issue I’ve seen  in there — both for myself and for those I support  —  is the need to manually copy technical configurations from BPMN models into the codebase. This includes things like element IDs, message names and worker types. It’s a tedious task that introduces opportunities for errors and increases cognitive load, especially as models evolve and configurations must be manually kept in sync with the code.
 
-To address these issues, I’ve built a Maven and Gradle plugin called [**bpmn-to-code**](https://github.com/emaarco/bpmn-to-code). It generates what I like to call **Process APIs** — Kotlin or Java code artifacts created directly from your BPMN models that contain all the technical configurations needed to interact with a process engine.
+To address these issues, I’ve built a Maven and Gradle plugin called [**bpmn-to-code**](https://github.com/Miragon/bpmn-to-code). It generates what I like to call **Process APIs** — Kotlin or Java code artifacts created directly from your BPMN models that contain all the technical configurations needed to interact with a process engine.
 
 Overall it pursues the goal to reduce manual effort, prevent errors, and ultimately foster clean and solutions for process automation. And maybe, just maybe, make developing with BPMN and process engines feel more easy and familiar to developers everywhere .
 
@@ -82,7 +82,7 @@ Having spent years developing process-automation solutions and enabling clients 
 
 ### 🚀 An Idea for a Solution
 
-bpmn-to-code is a plugin available for both [Gradle](https://plugins.gradle.org/plugin/io.github.emaarco.bpmn-to-code-gradle) and [Maven](https://central.sonatype.com/artifact/io.github.emaarco/bpmn-to-code-maven). You can think of it like Swagger Codegen, but for BPMN & process automation with the corresponding engines.
+bpmn-to-code is a plugin available for both [Gradle](https://plugins.gradle.org/plugin/io.miragon.bpmn-to-code-gradle) and [Maven](https://central.sonatype.com/artifact/io.miragon/bpmn-to-code-maven). You can think of it like Swagger Codegen, but for BPMN & process automation with the corresponding engines.
 
 Just as Swagger generates client code from OpenAPI definitions, **bpmn-to-code** generates a lightweight Process API from your BPMN models. This API file is a code-based representation of your process model — in the form of a Java or Kotlin file — that contains all the relevant technical configurations, such as element IDs, message IDs, worker types, and the process ID.
 
@@ -248,4 +248,4 @@ Manually copying technical configurations from BPMN models into your code is not
 
 Thanks for reading! I’d love to hear your feedback and thoughts on how this could help in your projects.
 
-*You can find the complete code & documentation to the plugin on [GitHub](https://github.com/emaarco/spring-gardium-leviosa/tree/main/examples/spring-for-graphql-http-headers) if you’d like to explore it further.*
+*You can find the complete code & documentation to the plugin on [GitHub](https://github.com/Miragon/bpmn-to-code) if you’d like to explore it further.*
