@@ -30,7 +30,7 @@ Thus, when working with AI you must iterate. You add sample code. You paste docu
 
 Several tools and patterns have already emerged to narrow this gap.
 
-[Agent files](https://agentskills.io/home) are one approach. They give the model persistent context about your project—like engine-specific conventions. However, their effectiveness drops when the file grows long and unfocused. Then, mixed concerns cut both ways: on one hand, Zeebe-specific context gets drowned out by unrelated project concerns. And on the other hand, engine noise pollutes tasks that have nothing to do with the engine.
+[Agent files](https://agents.md/) are one approach. They give the model persistent context about your project—like engine-specific conventions. However, their effectiveness drops when the file grows long and unfocused. Then, mixed concerns cut both ways: on one hand, Zeebe-specific context gets drowned out by unrelated project concerns. And on the other hand, engine noise pollutes tasks that have nothing to do with the engine.
 
 Another approach is the Model Context Protocol—short [MCP](https://modelcontextprotocol.io/docs/getting-started/intro). It connects AI agents to external tools and data sources. Tools like [Context7](https://context7.com/) have emerged from this protocol. Through tool calls, they pull current library documentation directly into the model’s context—like the latest Camunda SDK docs. Having these docs available greatly reduces the chance the model generates incorrect or outdated API calls.
 
@@ -107,7 +107,7 @@ Beyond that, there are two optional folders — not required for every skill.
 
 `scripts/` contains executable helpers for deterministic checks. For a worker skill, this could be a script that parses a BPMN model, filters out the relevant service task types, and extracts the process variables for a given task, eliminating any ambiguity before the model starts generating code. All in all, a skill therefore looks something like that:
 
-```
+```text
 my-skill/        # The parent folder
 ├── SKILL.md     # Required: The skill description with frontmatter & body
 ├── references/  # Optional: supporting docs loaded on demand
@@ -156,7 +156,7 @@ While building and refining skills in a real Zeebe project, I collected the most
 
 Since I'm using Claude Code, the skills live in the `.claude/skills/` folder. But because agent-skills it's an open standard, that's not limiting. You can use them as-is with any other agent. The current collection looks like this:
 
-```
+```text
 .claude/skills/
 ├── automate-process/
 ├── create-process-adapter/
@@ -233,7 +233,7 @@ Two things worth noting: skills are not agent-specific. Since they're an [open s
 
 Beyond that plugin, I'd suggest browsing the growing number of skill repositories and marketplaces. There's a good chance someone has already built something useful for your domain. And when you combine skills—yours and theirs—the effect compounds: each one adds context the model can lean on, making the output sharper and more reliable.
 
-Finally, don't stop at skills—explore what else your agent can do. In Claude Code, for example, [sub-agents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) are a natural next step: isolated contexts where the model operates in a specialized role, powered by a skill. Think of a reviewer that checks BPMN consistency, or an architecture guard that verifies hexagonal boundaries. I've experimented with these as well, and combined with skills, they unlocked even more productivity—but that's a topic for another post.
+Finally, don't stop at skills—explore what else your agent can do. In Claude Code, for example, [sub-agents](https://code.claude.com/docs/en/sub-agents) are a natural next step: isolated contexts where the model operates in a specialized role, powered by a skill. Think of a reviewer that checks BPMN consistency, or an architecture guard that verifies hexagonal boundaries. I've experimented with these as well, and combined with skills, they unlocked even more productivity—but that's a topic for another post.
 
 ## 🔭 What’s Next — and What I’m Curious About
 
