@@ -27,6 +27,10 @@ Feel free to reach out, contribute, or connect. Let's grow together! 🚀
 &nbsp;
 [<img alt="linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/schaeckm/)
 
+### 📚 Books I Recommend
+
+Some books I'd recommend – on software architecture, teams, process modeling and beyond: [Books](books/README.md)
+
 ### 🧑‍💻 My main Tech-Stack
 
 [<img alt="kotlin" src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white" />](https://github.com/emaarco)
