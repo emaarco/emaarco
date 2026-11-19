@@ -4,17 +4,12 @@
 
 # Learning Domain-Driven Design
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/"><img src="https://covers.openlibrary.org/b/id/12422655-M.jpg" alt="Cover of Learning Domain-Driven Design by Vlad Khononov" width="140"></a></td>
-<td valign="top">
-<b>Vlad Khononov</b><br>
-O'Reilly · 2021<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/"><img src="https://covers.openlibrary.org/b/id/12422655-M.jpg" alt="Cover of Learning Domain-Driven Design by Vlad Khononov" width="120"></a>
+
+**Vlad Khononov**<br>
+O'Reilly · 2021
+
+[Book page ↗](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 
 ## 💭 My take
 

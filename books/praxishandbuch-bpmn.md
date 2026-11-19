@@ -4,17 +4,12 @@
 
 # Praxishandbuch BPMN
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.hanser-fachbuch.de/Praxishandbuch-BPMN/978-3-446-48249-4"><img src="https://www.hanser-fachbuch.de/media/2d/a3/e3/1772009080/literaturverlageimageuploadMAMImageARTK_CT0_9783446482494_0001ARTK_CT0_9783446482494_0001.jpg?ts=1772009080" alt="Cover of Praxishandbuch BPMN by Jakob Freund, Bernd Rücker" width="140"></a></td>
-<td valign="top">
-<b>Jakob Freund, Bernd Rücker</b><br>
-Hanser · 7th edition, 2025<br><br>
-👥 Teams & Processes<br><br>
-<a href="https://www.hanser-fachbuch.de/Praxishandbuch-BPMN/978-3-446-48249-4">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.hanser-fachbuch.de/Praxishandbuch-BPMN/978-3-446-48249-4"><img src="https://www.hanser-fachbuch.de/media/2d/a3/e3/1772009080/literaturverlageimageuploadMAMImageARTK_CT0_9783446482494_0001ARTK_CT0_9783446482494_0001.jpg?ts=1772009080" alt="Cover of Praxishandbuch BPMN by Jakob Freund, Bernd Rücker" width="120"></a>
+
+**Jakob Freund, Bernd Rücker**<br>
+Hanser · 7th edition, 2025
+
+[Book page ↗](https://www.hanser-fachbuch.de/Praxishandbuch-BPMN/978-3-446-48249-4)
 
 ## 💭 My take
 

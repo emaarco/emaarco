@@ -4,17 +4,12 @@
 
 # Fundamentals of Software Architecture
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/"><img src="https://covers.openlibrary.org/b/id/10193363-M.jpg" alt="Cover of Fundamentals of Software Architecture by Mark Richards, Neal Ford" width="140"></a></td>
-<td valign="top">
-<b>Mark Richards, Neal Ford</b><br>
-O'Reilly · 1st edition, 2020<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/"><img src="https://covers.openlibrary.org/b/id/10193363-M.jpg" alt="Cover of Fundamentals of Software Architecture by Mark Richards, Neal Ford" width="120"></a>
+
+**Mark Richards, Neal Ford**<br>
+O'Reilly · 1st edition, 2020
+
+[Book page ↗](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/)
 
 ## 💭 My take
 

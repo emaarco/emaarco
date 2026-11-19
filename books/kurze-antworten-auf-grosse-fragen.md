@@ -4,17 +4,12 @@
 
 # Kurze Antworten auf große Fragen
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.klett-cotta.de/produkt/stephen-hawking-kurze-antworten-auf-grosse-fragen-9783608963762-t-4750"><img src="https://res.cloudinary.com/pim-red/image/upload/c_limit,w_400/v1668754857/klett-cotta/titles/covers/7035.png" alt="Cover of Kurze Antworten auf große Fragen by Stephen Hawking" width="140"></a></td>
-<td valign="top">
-<b>Stephen Hawking</b><br>
-Klett-Cotta · 2018 · German edition of <i>Brief Answers to the Big Questions</i><br><br>
-🌌 Beyond Software<br><br>
-<a href="https://www.klett-cotta.de/produkt/stephen-hawking-kurze-antworten-auf-grosse-fragen-9783608963762-t-4750">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.klett-cotta.de/produkt/stephen-hawking-kurze-antworten-auf-grosse-fragen-9783608963762-t-4750"><img src="https://res.cloudinary.com/pim-red/image/upload/c_limit,w_400/v1668754857/klett-cotta/titles/covers/7035.png" alt="Cover of Kurze Antworten auf große Fragen by Stephen Hawking" width="120"></a>
+
+**Stephen Hawking**<br>
+Klett-Cotta · 2018 · German edition of <i>Brief Answers to the Big Questions</i>
+
+[Book page ↗](https://www.klett-cotta.de/produkt/stephen-hawking-kurze-antworten-auf-grosse-fragen-9783608963762-t-4750)
 
 ## 💭 My take
 

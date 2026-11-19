@@ -4,17 +4,12 @@
 
 # Das Mindset von DevOps. Accelerate
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.vahlen.de/forsgren-humble-kim-mindset-devops-accelerate/product/26640934"><img src="https://covers.openlibrary.org/b/id/8778988-M.jpg" alt="Cover of Das Mindset von DevOps. Accelerate by Nicole Forsgren, Jez Humble, Gene Kim" width="140"></a></td>
-<td valign="top">
-<b>Nicole Forsgren, Jez Humble, Gene Kim</b><br>
-Vahlen · 2019 · German edition of <a href="https://itrevolution.com/product/accelerate/">Accelerate</a><br><br>
-👥 Teams & Processes<br><br>
-<a href="https://www.vahlen.de/forsgren-humble-kim-mindset-devops-accelerate/product/26640934">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.vahlen.de/forsgren-humble-kim-mindset-devops-accelerate/product/26640934"><img src="https://covers.openlibrary.org/b/id/8778988-M.jpg" alt="Cover of Das Mindset von DevOps. Accelerate by Nicole Forsgren, Jez Humble, Gene Kim" width="120"></a>
+
+**Nicole Forsgren, Jez Humble, Gene Kim**<br>
+Vahlen · 2019 · German edition of <a href="https://itrevolution.com/product/accelerate/">Accelerate</a>
+
+[Book page ↗](https://www.vahlen.de/forsgren-humble-kim-mindset-devops-accelerate/product/26640934)
 
 ## 💭 My take
 

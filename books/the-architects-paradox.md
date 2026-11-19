@@ -3,17 +3,12 @@
 
 # The Architect's Paradox: Uncertainty and the Philosophy of Software Architecture
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://leanpub.com/architectsparadox"><img src="https://d2sofvawe08yqg.cloudfront.net/architectsparadox/s_hero?1736315804" alt="Cover of The Architect's Paradox: Uncertainty and the Philosophy of Software Architecture by Barry O'Reilly" width="140"></a></td>
-<td valign="top">
-<b>Barry O'Reilly</b><br>
-Leanpub · 2025<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://leanpub.com/architectsparadox">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://leanpub.com/architectsparadox"><img src="https://d2sofvawe08yqg.cloudfront.net/architectsparadox/s_hero?1736315804" alt="Cover of The Architect's Paradox: Uncertainty and the Philosophy of Software Architecture by Barry O'Reilly" width="120"></a>
+
+**Barry O'Reilly**<br>
+Leanpub · 2025
+
+[Book page ↗](https://leanpub.com/architectsparadox)
 
 ## 💭 My take
 

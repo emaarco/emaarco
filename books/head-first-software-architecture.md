@@ -3,17 +3,12 @@
 
 # Head First Software Architecture
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.oreilly.com/library/view/head-first-software/9781098134341/"><img src="https://covers.openlibrary.org/b/id/15126520-M.jpg" alt="Cover of Head First Software Architecture by Raju Gandhi, Mark Richards, Neal Ford" width="140"></a></td>
-<td valign="top">
-<b>Raju Gandhi, Mark Richards, Neal Ford</b><br>
-O'Reilly · 2024<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://www.oreilly.com/library/view/head-first-software/9781098134341/">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.oreilly.com/library/view/head-first-software/9781098134341/"><img src="https://covers.openlibrary.org/b/id/15126520-M.jpg" alt="Cover of Head First Software Architecture by Raju Gandhi, Mark Richards, Neal Ford" width="120"></a>
+
+**Raju Gandhi, Mark Richards, Neal Ford**<br>
+O'Reilly · 2024
+
+[Book page ↗](https://www.oreilly.com/library/view/head-first-software/9781098134341/)
 
 ## 💭 My take
 

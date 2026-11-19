@@ -1,19 +1,14 @@
 <!-- TODO(marco): texts are drafts, please review before publishing. -->
 [← All books](README.md)
 
-# Everything Is F*cked: A Book About Hope
+# Everything Is F\*cked: A Book About Hope
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://markmanson.net/books/everything-is-fucked"><img src="https://covers.openlibrary.org/b/id/9351865-M.jpg" alt="Cover of Everything Is F*cked: A Book About Hope by Mark Manson" width="140"></a></td>
-<td valign="top">
-<b>Mark Manson</b><br>
-Harper · 2019<br><br>
-🌌 Beyond Software<br><br>
-<a href="https://markmanson.net/books/everything-is-fucked">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://markmanson.net/books/everything-is-fucked"><img src="https://covers.openlibrary.org/b/id/9351865-M.jpg" alt="Cover of Everything Is F*cked: A Book About Hope by Mark Manson" width="120"></a>
+
+**Mark Manson**<br>
+Harper · 2019
+
+[Book page ↗](https://markmanson.net/books/everything-is-fucked)
 
 ## 💭 My take
 

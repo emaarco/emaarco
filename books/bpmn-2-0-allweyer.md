@@ -4,17 +4,12 @@
 
 # BPMN 2.0 – Business Process Model and Notation
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://buchshop.bod.de/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261"><img src="https://images.bod.com/images/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261.jpg/400/400/BPMN_2.0_-_Business_Process_Model_and_Notation.webp" alt="Cover of BPMN 2.0 – Business Process Model and Notation by Thomas Allweyer" width="140"></a></td>
-<td valign="top">
-<b>Thomas Allweyer</b><br>
-Books on Demand · 4th edition, 2020<br><br>
-👥 Teams & Processes<br><br>
-<a href="https://buchshop.bod.de/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://buchshop.bod.de/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261"><img src="https://images.bod.com/images/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261.jpg/400/400/BPMN_2.0_-_Business_Process_Model_and_Notation.webp" alt="Cover of BPMN 2.0 – Business Process Model and Notation by Thomas Allweyer" width="120"></a>
+
+**Thomas Allweyer**<br>
+Books on Demand · 4th edition, 2020
+
+[Book page ↗](https://buchshop.bod.de/bpmn-2-0-business-process-model-and-notation-thomas-allweyer-9783750435261)
 
 ## 💭 My take
 

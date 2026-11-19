@@ -4,17 +4,12 @@
 
 # Residues: Time, Change, and Uncertainty in Software Architecture
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://leanpub.com/residuality"><img src="https://d2sofvawe08yqg.cloudfront.net/residuality/s_hero?1713352758" alt="Cover of Residues: Time, Change, and Uncertainty in Software Architecture by Barry O'Reilly" width="140"></a></td>
-<td valign="top">
-<b>Barry O'Reilly</b><br>
-Leanpub · 2024<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://leanpub.com/residuality">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://leanpub.com/residuality"><img src="https://d2sofvawe08yqg.cloudfront.net/residuality/s_hero?1713352758" alt="Cover of Residues: Time, Change, and Uncertainty in Software Architecture by Barry O'Reilly" width="120"></a>
+
+**Barry O'Reilly**<br>
+Leanpub · 2024
+
+[Book page ↗](https://leanpub.com/residuality)
 
 ## 💭 My take
 

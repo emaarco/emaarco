@@ -4,17 +4,12 @@
 
 # Building Micro-Frontends
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.oreilly.com/library/view/building-micro-frontends/9781492082989/"><img src="https://covers.openlibrary.org/b/id/12437599-M.jpg" alt="Cover of Building Micro-Frontends by Luca Mezzalira" width="140"></a></td>
-<td valign="top">
-<b>Luca Mezzalira</b><br>
-O'Reilly · 1st edition, 2021<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://www.oreilly.com/library/view/building-micro-frontends/9781492082989/">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.oreilly.com/library/view/building-micro-frontends/9781492082989/"><img src="https://covers.openlibrary.org/b/id/12437599-M.jpg" alt="Cover of Building Micro-Frontends by Luca Mezzalira" width="120"></a>
+
+**Luca Mezzalira**<br>
+O'Reilly · 1st edition, 2021
+
+[Book page ↗](https://www.oreilly.com/library/view/building-micro-frontends/9781492082989/)
 
 ## 💭 My take
 

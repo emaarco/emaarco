@@ -4,17 +4,12 @@
 
 # Team Topologies
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://teamtopologies.com/book"><img src="https://covers.openlibrary.org/b/id/10354937-M.jpg" alt="Cover of Team Topologies by Matthew Skelton, Manuel Pais" width="140"></a></td>
-<td valign="top">
-<b>Matthew Skelton, Manuel Pais</b><br>
-IT Revolution · 2019<br><br>
-👥 Teams & Processes<br><br>
-<a href="https://teamtopologies.com/book">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://teamtopologies.com/book"><img src="https://covers.openlibrary.org/b/id/10354937-M.jpg" alt="Cover of Team Topologies by Matthew Skelton, Manuel Pais" width="120"></a>
+
+**Matthew Skelton, Manuel Pais**<br>
+IT Revolution · 2019
+
+[Book page ↗](https://teamtopologies.com/book)
 
 ## 💭 My take
 

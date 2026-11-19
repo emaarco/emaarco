@@ -29,7 +29,7 @@ Feel free to reach out, contribute, or connect. Let's grow together! 🚀
 
 ### 📚 Books I Recommend
 
-Some books I'd recommend – on software architecture, teams, process modeling and beyond: [Books](books/README.md)
+Some books I'd recommend – on software architecture, modeling, teams and beyond: [Books](books/README.md)
 
 ### 🧑‍💻 My main Tech-Stack
 

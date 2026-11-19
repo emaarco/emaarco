@@ -3,17 +3,12 @@
 
 # Software Architecture: The Hard Parts
 
-<table>
-<tr>
-<td width="160" valign="top"><a href="https://www.oreilly.com/library/view/software-architecture-the/9781492086888/"><img src="https://covers.openlibrary.org/b/id/12318698-M.jpg" alt="Cover of Software Architecture: The Hard Parts by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani" width="140"></a></td>
-<td valign="top">
-<b>Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani</b><br>
-O'Reilly · 2021<br><br>
-🧩 Software Architecture & Design<br><br>
-<a href="https://www.oreilly.com/library/view/software-architecture-the/9781492086888/">Book page ↗</a>
-</td>
-</tr>
-</table>
+<a href="https://www.oreilly.com/library/view/software-architecture-the/9781492086888/"><img src="https://covers.openlibrary.org/b/id/12318698-M.jpg" alt="Cover of Software Architecture: The Hard Parts by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani" width="120"></a>
+
+**Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani**<br>
+O'Reilly · 2021
+
+[Book page ↗](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/)
 
 ## 💭 My take
 
